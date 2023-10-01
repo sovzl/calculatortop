@@ -1,0 +1,39 @@
+body { 
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+input {
+    height: 35px;
+}
+
+#calculatorBody {
+    display: flex;
+    flex-flow: column wrap;
+    width: 20vh;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#buttonsArea {
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5px;
+    justify-content: center;
+}
+
+
+
+#equal {
+    flex: 1 0 20px;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+}
